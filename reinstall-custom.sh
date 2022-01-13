@@ -20,6 +20,3 @@ dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NS
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/nextspace-applications-0.91-0.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/nextspace-applications-devel-0.91-0.el8.x86_64.rpm
 #dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/nextspace-selinux-0.91-0.el8.x86_64.rpm
-systemctl restart loginwindow
-#systemctl stop loginwindow
-#systemctl start loginwindow
