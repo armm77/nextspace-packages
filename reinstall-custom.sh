@@ -5,8 +5,8 @@
 
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/libdispatch-5.4.2-1.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/libdispatch-devel-5.4.2-1.el8.x86_64.rpm
-dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/libfoundation-5.4.2-0.el8.x86_64.rpm
-dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/libfoundation-devel-5.4.2-0.el8.x86_64.rpm
+dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/libcorefoundation-5.4.2-0.el8.x86_64.rpm
+dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/libcorefoundation-devel-5.4.2-0.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/libobjc2-2.1-0.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/libobjc2-devel-2.1-0.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/nextspace-core-0.95-12.el8.x86_64.rpm
