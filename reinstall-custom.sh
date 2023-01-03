@@ -20,3 +20,13 @@ dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NS
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/nextspace-applications-0.91-0.el8.x86_64.rpm
 dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSDeveloper/nextspace-applications-devel-0.91-0.el8.x86_64.rpm
 #dnf -y reinstall https://github.com/armm77/nextspace-packages/raw/main/custom/NSUser/nextspace-selinux-0.91-0.el8.x86_64.rpm
+
+if [ -f /etc/os-release ]; then
+    source /etc/os-release
+    export OS_NAME=$ID
+    if [ $ID == "almalinux" ]; then
+       sed -i 's/rocky/almalinux/g' /usr/NextSpace/Apps/Workspace.app/Resources/Info-gnustep.plist
+       sed -i 's/rocky/almalinux/g' /usr/NextSpace/Apps/Workspace.app/Resources/Workspace.desktop
+       sed -i 's/rocky/almalinux/g' /usr/NextSpace/Apps/Workspace.app/stamp.make
+    fi
+fi
