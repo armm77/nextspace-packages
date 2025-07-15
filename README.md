@@ -1,2 +1,2 @@
 # nextspace-packages
-[NEXTSPACE](https://github.com/trunkmaster/nextspace) Weekly Packs for Fedora 42. 
+[NEXTSPACE](https://github.com/trunkmaster/nextspace) Weekly Packs for Fedora Linux 42. 
